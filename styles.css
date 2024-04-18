@@ -1,0 +1,41 @@
+.rodapeTop {
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape1, .rodape2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 3rem;
+}
+
+.rodape1buttonleft{
+    background: white;
+    border: solid 0.1rem gray;
+    border-radius: 0.7rem;
+    padding: 0.7rem 2.2rem;
+    margin: 0.5rem 1rem;
+}
+
+
+
+.imgicons{
+    width: 20px;
+    height: 20px;
+}
+.imgicons2{
+    width: 10px;
+    height: 20px;
+}
+
+.buttonright1, .buttonright2{
+    color: var(--bluep);
+}
+
+.rodape1buttonleft, .rodape1buttonright {
+    color: var(--bluep);
+}
+.rodapeh1{
+    color: var(--bluep);
+}
