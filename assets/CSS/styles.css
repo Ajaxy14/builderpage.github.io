@@ -1,0 +1,201 @@
+body{
+    background-color: black;
+    font-family: var(--inter-medium);
+}
+
+
+.rodapeTop {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    font-size: 16px;
+}
+
+.rodape1, .rodape2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.rodape1{
+    margin: 0.3rem 0.3rem;
+}
+.rodape2 {
+    max-width: 1224px; /* Define a largura máxima */
+    margin: 20px auto; /* Margem de 20px nas laterais e centraliza horizontalmente */
+    width: 100%; /* Define a largura como 100% */
+    padding: 0 16px; /* Adiciona padding lateral de 16px */
+}
+
+@media screen and (max-width: 768px) {
+    .rodape2 {
+        margin: 20px 0; /* Remove a margem nas laterais */
+        padding: 0 16px; /* Mantém o padding lateral de 16px */
+    }
+}
+
+
+
+.rodape1buttonleft{
+    align-items: center;
+    background: white;
+    border: solid 0.1rem var(--border);
+    border-radius: 0.7rem;
+    padding: 0.7rem 2.2rem;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-family: var(--inter-regular);
+    font-weight: 600;
+}
+
+.rodape1buttonleft:hover{
+    background-color: var(--azure-light);
+    transition: background-color 0.2s ease;
+}
+
+.rodape1buttonleft, .rodape1buttonright {
+    color: var(--primary);
+}
+
+.rightrodape1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttonimgright{
+    border: solid 0.5rem transparent;
+    border-radius: 0.4rem;
+    background-color: white;
+    margin-right: 0.2rem;
+    padding-top: 0.2rem;
+}
+.buttonimgright:hover{
+    background-color: var(--azure-light);
+    transition: background-color 0.2s ease;
+}
+.buttonimgright2{
+    border: solid 0.5rem transparent;
+    border-radius: 0.4rem;
+    background-color: white;
+    margin-right: 0.2rem;
+    padding-top: 0.2rem;
+}
+.buttonimgright2:hover{
+    background-color: var(--azure-light);
+    transition: background-color 0.2s ease;
+}
+.rodape1buttonright{
+    display: flex;
+    align-items: center;
+    background: var(--primary);
+    color: white;
+    border: solid 0.1rem var(--border);
+    border-radius: 0.7rem;
+    cursor: pointer;
+    font-size: 0.80rem;
+    font-family: var(--inter-regular);
+    font-weight: 600;
+    padding: 0.75rem 2.2rem;
+}
+.rodape1buttonright:hover{
+    background-color: var(--primary-dark);
+    transition: background-color 0.1s ease;
+}
+
+
+.imgicons{
+    width: 20px;
+    height: 20px;
+}
+.imgicons2{
+    width: 5px;
+    height: 10px;
+    margin-right: 1rem;
+}
+.imgicons3{
+    width: 6px;
+    height: 12px;
+    margin-left: 1rem;
+}
+.imgiconscell{
+    width: 13px;
+    height: 20px;
+    border: none;
+}
+#imgiconspc{
+    width: 22px;
+    height: 16px;
+    border-color: red;
+}
+
+
+.rodapeh1{
+    color: black;
+    font-size: 1.37rem;
+    font-family: var(--inter-regular);
+    letter-spacing: 0.04rem;
+}
+
+.rightrodape2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-self: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+.buttonright2{
+    margin: 0px 0.8rem;
+    color: var(--primary);
+    border: none;
+    height: 100%;
+    background-color: transparent;
+    color: var(--dark);
+    font-size: 0.94rem;
+    position: relative;
+    line-height: 1.2rem;
+    text-decoration: none;
+}
+
+
+.buttonright2 {
+    position: relative;
+    font-family: var(--inter-regular);
+    font-weight: 500;
+}
+
+.buttonright2 span::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: var(--dark);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.buttonright2:hover span::after {
+    opacity: 1;
+}
+
+
+
+.hrline, .hrhr{
+    width: 100%;
+    height: 1px;
+    margin: 0;
+    border: none;
+    background-color: var(--border );
+}
+
+

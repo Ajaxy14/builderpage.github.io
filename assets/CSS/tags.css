@@ -1,0 +1,31 @@
+:root {
+   --meteorite-dark: #2f1c6a;
+   --meteorite: #8c85ff;
+   --meteorite-light: #d5dfff;
+   --primary-dark: #5025d1;
+   --primary: #673de6;
+   --dark: #1d1e20;
+   --border: #dadce0;
+   --gray-dark: #36344d;
+   --gray: #727586;
+   --gray-light: #f2f3f6;
+   --light: #fff;
+   --azure: #357df9;
+   --azure-light: #e3ebf9;
+   --azure-dark: #265ab2;
+}
+
+:root {
+   --inter-medium: "inter-medium", sans-serif;
+   --inter-regular: "inter-regular", sans-serif;
+   --lexend-deca: "LexendDeca", sans-serif;
+   --Antipasto: "Antipasto-Pro", sans-serif;
+}
+
+@font-face {
+   font-family: inter-medium;
+   src: url(/assets/Fontes/Inter-Medium.ttf) format('truetype');
+
+   font-family: inter-regular;
+   src: url(/assets/Fontes/Inter-Regular.ttf) format('truetype')
+}
